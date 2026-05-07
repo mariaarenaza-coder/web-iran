@@ -26,7 +26,9 @@ export default function Header() {
     >
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         {/* Logo */}
-        <a href="#inicio" className="flex flex-col leading-tight">
+        <a href="#inicio" className="flex items-center gap-2.5">
+          <LogoOrnament />
+          <div className="flex flex-col leading-tight">
           <span
             className="text-2xl font-bold text-[#2D1A0E]"
             style={{ fontFamily: "var(--font-playfair)" }}
@@ -42,6 +44,7 @@ export default function Header() {
               RESTAURACIÓN
             </span>
           </span>
+          </div>
         </a>
 
         {/* Desktop nav */}
@@ -121,6 +124,17 @@ export default function Header() {
         </div>
       )}
     </header>
+  );
+}
+
+function LogoOrnament() {
+  return (
+    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" aria-hidden="true">
+      {/* 8-pointed compass rose */}
+      <path d="M15 2 L16.2 13 L24 6 L17 15 L24 24 L16.2 17 L15 28 L13.8 17 L6 24 L13 15 L6 6 L13.8 13 Z" fill="#C9A96E" opacity="0.85"/>
+      <circle cx="15" cy="15" r="2.5" fill="#F8F3E8"/>
+      <circle cx="15" cy="15" r="1.2" fill="#C9A96E"/>
+    </svg>
   );
 }
 

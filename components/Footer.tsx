@@ -57,12 +57,15 @@ export default function Footer() {
           >
             Zona de trabajo
           </p>
-          <p
-            className="text-[#D4C5A9] text-sm font-light"
-            style={{ fontFamily: "var(--font-lato)" }}
-          >
-            Álava y Vizcaya
-          </p>
+          <div className="flex items-center gap-3">
+            <CityIcon />
+            <p
+              className="text-[#D4C5A9] text-sm font-light"
+              style={{ fontFamily: "var(--font-lato)" }}
+            >
+              Araba y Bizkaia
+            </p>
+          </div>
         </div>
       </div>
 
@@ -79,6 +82,25 @@ export default function Footer() {
         </p>
       </div>
     </footer>
+  );
+}
+
+function CityIcon() {
+  return (
+    <svg width="38" height="32" viewBox="0 0 38 32" fill="none" aria-hidden="true">
+      {/* Mountains background */}
+      <path d="M0 28 L8 14 L14 22 L19 10 L24 22 L30 14 L38 28 Z" fill="#C9A96E" opacity="0.2"/>
+      {/* Mountain peaks */}
+      <path d="M12 28 L19 12 L26 28 Z" fill="#C9A96E" opacity="0.35"/>
+      {/* Building/tower left */}
+      <rect x="3" y="18" width="6" height="10" rx="0.5" fill="#C9A96E" opacity="0.5"/>
+      <rect x="5" y="16" width="2" height="3" rx="0.5" fill="#C9A96E" opacity="0.5"/>
+      {/* Building/tower right */}
+      <rect x="29" y="20" width="6" height="8" rx="0.5" fill="#C9A96E" opacity="0.5"/>
+      <rect x="31" y="17" width="2" height="4" rx="0.5" fill="#C9A96E" opacity="0.5"/>
+      {/* Ground line */}
+      <line x1="0" y1="28" x2="38" y2="28" stroke="#C9A96E" strokeWidth="1" opacity="0.4"/>
+    </svg>
   );
 }
 

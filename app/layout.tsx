@@ -26,7 +26,7 @@ const lato = Lato({
 export const metadata: Metadata = {
   title: "Irantzu Restauración — Especialista en sillas antiguas",
   description:
-    "Devuelvo belleza, funcionalidad y vida a cada silla, respetando su esencia original. Servicio en Álava y Vizcaya.",
+    "Devuelvo belleza, funcionalidad y vida a cada silla, respetando su esencia original. Servicio en Araba y Bizkaia.",
 };
 
 export default function RootLayout({

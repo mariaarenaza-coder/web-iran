@@ -23,7 +23,7 @@ export default function Location() {
               className="text-2xl md:text-3xl font-bold text-[#F8F3E8] leading-snug"
               style={{ fontFamily: "var(--font-playfair)" }}
             >
-              Trabajo en Álava y Vizcaya
+              Trabajo en Araba y Bizkaia
             </h2>
           </div>
 

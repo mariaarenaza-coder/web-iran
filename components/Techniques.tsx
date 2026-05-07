@@ -1,4 +1,5 @@
 import Image from "next/image";
+import OrnamentLine from "./OrnamentLine";
 
 export default function Techniques() {
   const techniques = [
@@ -19,7 +20,7 @@ export default function Techniques() {
     },
     {
       icon: "/images/icon4.png",
-      title: "Trabajo",
+      title: "Tapizo",
       subtitle: "asientos de cincha",
     },
     {
@@ -31,14 +32,7 @@ export default function Techniques() {
 
   return (
     <section className="bg-white/60 py-20 px-6 relative">
-      {/* Top ornament */}
-      <div className="flex items-center gap-4 max-w-xs mx-auto mb-10">
-        <span className="flex-1 h-px bg-[#C9A96E]" />
-        <span className="text-[#C9A96E] text-xs tracking-widest uppercase" style={{ fontFamily: "var(--font-lato)" }}>
-          ✦
-        </span>
-        <span className="flex-1 h-px bg-[#C9A96E]" />
-      </div>
+      <OrnamentLine className="max-w-xs mx-auto mb-10" />
 
       <h2
         className="text-3xl md:text-4xl font-bold text-[#2D1A0E] text-center mb-14"
@@ -53,19 +47,19 @@ export default function Techniques() {
             <Image
               src={tech.icon}
               alt={`${tech.title} ${tech.subtitle}`}
-              width={100}
-              height={100}
+              width={140}
+              height={140}
               className="object-contain"
             />
             <div>
               <p
-                className="font-bold text-[#2D1A0E] text-sm"
+                className="font-bold text-[#2D1A0E] text-base"
                 style={{ fontFamily: "var(--font-lato)" }}
               >
                 {tech.title}
               </p>
               <p
-                className="text-[#6B4226] text-xs leading-snug mt-1 font-light"
+                className="text-[#6B4226] text-sm leading-snug mt-1 font-light"
                 style={{ fontFamily: "var(--font-lato)" }}
               >
                 {tech.subtitle}
@@ -75,8 +69,6 @@ export default function Techniques() {
         ))}
       </div>
 
-      {/* Bottom separator */}
-      <div className="h-px w-full max-w-4xl mx-auto bg-[#D4C5A9] mt-16" />
     </section>
   );
 }

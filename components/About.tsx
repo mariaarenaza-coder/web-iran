@@ -41,9 +41,12 @@ export default function About() {
             className="text-[#6B4226] leading-relaxed font-light text-base"
             style={{ fontFamily: "var(--font-lato)" }}
           >
-            Soy Irantzu, apasionada por las sillas antiguas y por todo lo que
-            cuentan. Cada pieza tiene una historia que merece continuar. Mi
-            trabajo combina técnica, paciencia y respeto por la tradición para
+            Soy Irantzu, apasionada por la restauración. Lo que empezó siendo
+            una simple afición, tras muchos años de aprendizaje y práctica, se
+            ha convertido en auténtica pasión. En especial por las sillas
+            antiguas y por todo lo que cuentan. Creo que cada pieza tiene una
+            historia que merece continuar. Y ese es mi objetivo. Mi trabajo
+            combina técnica, paciencia y respeto por la tradición, para
             devolver a cada silla su belleza y solidez.
           </p>
 
@@ -61,7 +64,7 @@ export default function About() {
             className="inline-flex items-center gap-2 border border-[#2D1A0E] text-[#2D1A0E] hover:bg-[#2D1A0E] hover:text-[#F8F3E8] px-5 py-2.5 rounded transition-colors text-sm font-medium w-fit"
             style={{ fontFamily: "var(--font-lato)" }}
           >
-            Conoce más sobre mí →
+            Conoce más sobre mí
           </a>
         </div>
       </div>
