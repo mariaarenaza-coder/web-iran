@@ -23,7 +23,7 @@ const steps = [
     number: "04",
     title: "Te la entrego",
     description:
-      "Recibes tu silla restaurada, con toda su belleza y solidez recuperadas.",
+      "Recoges tu silla restaurada, con toda su belleza y solidez recuperadas.",
   },
 ];
 
