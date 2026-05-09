@@ -31,8 +31,8 @@ export default function Location() {
             className="text-[#D4C5A9] leading-relaxed font-light text-base"
             style={{ fontFamily: "var(--font-lato)" }}
           >
-            Ofrezco un servicio cercano y personalizado. Me desplazo para
-            valorar tu silla sin compromiso.
+            Ofrezco un servicio cercano y personalizado. Tráeme tu silla y la
+            valoramos juntas sin compromiso.
           </p>
 
           <a

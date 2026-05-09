@@ -9,9 +9,9 @@ const steps = [
   },
   {
     number: "02",
-    title: "Valoro tu silla",
+    title: "Traes tu silla",
     description:
-      "Me desplazo hasta donde estés para ver la pieza en persona, sin compromiso ni coste.",
+      "Traes la pieza hasta mí para que pueda valorarla en persona, sin compromiso ni coste.",
   },
   {
     number: "03",
