@@ -13,7 +13,7 @@ export default function Location() {
               className="text-xs tracking-widest uppercase text-[#C9A96E]"
               style={{ fontFamily: "var(--font-lato)" }}
             >
-              Dónde trabajo
+              Dónde encontrarme
             </span>
           </div>
 
@@ -23,7 +23,7 @@ export default function Location() {
               className="text-2xl md:text-3xl font-bold text-[#F8F3E8] leading-snug"
               style={{ fontFamily: "var(--font-playfair)" }}
             >
-              Trabajo en Araba y Bizkaia
+              Trae tu silla a mi taller
             </h2>
           </div>
 
@@ -31,9 +31,26 @@ export default function Location() {
             className="text-[#D4C5A9] leading-relaxed font-light text-base"
             style={{ fontFamily: "var(--font-lato)" }}
           >
-            Ofrezco un servicio cercano y personalizado. Tráeme tu silla y la
-            valoramos juntas sin compromiso.
+            Puedes traerme tu mueble a cualquiera de mis dos talleres. Te
+            atiendo con cita previa.
           </p>
+
+          <div className="flex flex-col gap-3">
+            <div className="flex items-start gap-2">
+              <PinIcon />
+              <div style={{ fontFamily: "var(--font-lato)" }}>
+                <p className="text-[#F8F3E8] text-sm font-medium">Zuia</p>
+                <p className="text-[#D4C5A9] text-sm font-light">Álava</p>
+              </div>
+            </div>
+            <div className="flex items-start gap-2">
+              <PinIcon />
+              <div style={{ fontFamily: "var(--font-lato)" }}>
+                <p className="text-[#F8F3E8] text-sm font-medium">Bilbao</p>
+                <p className="text-[#D4C5A9] text-sm font-light">Bizkaia</p>
+              </div>
+            </div>
+          </div>
 
           <a
             href="https://wa.me/34626407048"

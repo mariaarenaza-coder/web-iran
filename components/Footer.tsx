@@ -55,16 +55,14 @@ export default function Footer() {
             className="text-xs tracking-widest uppercase text-[#C9A96E]"
             style={{ fontFamily: "var(--font-lato)" }}
           >
-            Zona de trabajo
+            Talleres
           </p>
-          <div className="flex items-center gap-3">
+          <div className="flex items-start gap-3">
             <CityIcon />
-            <p
-              className="text-[#D4C5A9] text-sm font-light"
-              style={{ fontFamily: "var(--font-lato)" }}
-            >
-              Araba y Bizkaia
-            </p>
+            <div className="flex flex-col gap-1" style={{ fontFamily: "var(--font-lato)" }}>
+              <p className="text-[#D4C5A9] text-sm font-light">Zuia · Álava</p>
+              <p className="text-[#D4C5A9] text-sm font-light">Bilbao · Bizkaia</p>
+            </div>
           </div>
         </div>
       </div>
