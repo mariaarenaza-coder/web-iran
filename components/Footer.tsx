@@ -25,7 +25,7 @@ export default function Footer() {
             className="text-[#D4C5A9] text-sm font-light leading-relaxed"
             style={{ fontFamily: "var(--font-lato)" }}
           >
-            Especialista en restauración de sillas
+            Restauración de sillas · especializada en rejilla
           </p>
         </div>
 

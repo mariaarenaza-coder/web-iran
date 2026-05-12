@@ -32,13 +32,13 @@ export default function Hero() {
               className="text-base text-[#6B4226] mb-1"
               style={{ fontFamily: "var(--font-playfair)" }}
             >
-              Especialista en
+              Restauración de sillas
             </p>
             <h1
               className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#2D1A0E] leading-tight mb-5"
               style={{ fontFamily: "var(--font-playfair)" }}
             >
-              restauración de<br />sillas
+              especializada<br />en rejilla
             </h1>
             <p
               className="text-[#6B4226] text-sm lg:text-base leading-relaxed font-light mb-4 max-w-xs"
