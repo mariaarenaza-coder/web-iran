@@ -47,7 +47,7 @@ export default function About() {
             antiguas de rejilla y por todo lo que cuentan. Creo que cada pieza tiene una
             historia que merece continuar. Y ese es mi objetivo. Mi trabajo
             combina técnica, paciencia y respeto por la tradición, para
-            devolver a cada silla su belleza y solidez.
+            devolver a cada silla de rejilla su belleza y solidez.
           </p>
 
           <p
