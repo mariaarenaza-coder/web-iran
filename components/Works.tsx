@@ -10,13 +10,13 @@ export default function Works() {
     },
     {
       src: "/images/silla-isabelina.jpg",
-      name: "Silla Isabelina",
-      description: "Restauración de asiento de cincha",
+      name: "Respaldo de silla de rejilla",
+      description: "Rejillado a mano, hilo a hilo",
     },
     {
       src: "/images/silla-rustica.jpg",
-      name: "Silla Rústica",
-      description: "Restauración de estructura y asiento de enea",
+      name: "Cabezal de rejilla",
+      description: "Restauración completa de rejilla en cabezal",
     },
   ];
 
