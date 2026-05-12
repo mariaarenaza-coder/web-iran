@@ -20,11 +20,6 @@ export default function Techniques() {
     },
     {
       icon: "/images/icon4.png",
-      title: "Tapizo",
-      subtitle: "asientos de cincha",
-    },
-    {
-      icon: "/images/icon5.png",
       title: "Acabo y protejo",
       subtitle: "la madera",
     },
@@ -41,7 +36,7 @@ export default function Techniques() {
         Mis técnicas
       </h2>
 
-      <div className="max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
+      <div className="max-w-4xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8">
         {techniques.map((tech, i) => (
           <div key={i} className="flex flex-col items-center text-center gap-4">
             <Image
