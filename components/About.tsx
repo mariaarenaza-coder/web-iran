@@ -44,7 +44,7 @@ export default function About() {
             Soy Irantzu, apasionada por la restauración. Lo que empezó siendo
             una simple afición, tras muchos años de aprendizaje y práctica, se
             ha convertido en auténtica pasión. En especial por las sillas
-            antiguas y por todo lo que cuentan. Creo que cada pieza tiene una
+            antiguas de rejilla y por todo lo que cuentan. Creo que cada pieza tiene una
             historia que merece continuar. Y ese es mi objetivo. Mi trabajo
             combina técnica, paciencia y respeto por la tradición, para
             devolver a cada silla su belleza y solidez.
