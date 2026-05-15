@@ -27,6 +27,22 @@ export const metadata: Metadata = {
   title: "Irantzu Rejilla — Especialista en rejilla y asientos artesanales",
   description:
     "Devuelvo belleza, funcionalidad y vida a cada silla, respetando su esencia original. Servicio en Araba y Bizkaia.",
+  openGraph: {
+    title: "Irantzu Rejilla — Especialista en rejilla y asientos artesanales",
+    description: "Restauración de sillas. Especializada en rejilla y asientos artesanales. Talleres en Zuia y Bilbao.",
+    url: "https://irantzurejilla.es",
+    siteName: "Irantzu Rejilla",
+    images: [
+      {
+        url: "https://irantzurejilla.es/images/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Irantzu Rejilla — Especialista en restauración de sillas",
+      },
+    ],
+    locale: "es_ES",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
