@@ -5,8 +5,8 @@ export default function Works() {
   const works = [
     {
       src: "/images/silla-thonet.jpg",
-      name: "Silla Thonet",
-      description: "Restauración de rejilla en respaldo y asiento",
+      name: "Asiento de rejilla",
+      description: "Rejillado a mano de asiento cuadrado",
     },
     {
       src: "/images/silla-isabelina.jpg",
