@@ -32,7 +32,7 @@ export default function Hero() {
               className="text-base text-[#6B4226] mb-1"
               style={{ fontFamily: "var(--font-playfair)" }}
             >
-              especializada en rejilla
+              Especialista en rejilla y asientos artesanales
             </p>
             <h1
               className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#2D1A0E] leading-tight mb-5"
