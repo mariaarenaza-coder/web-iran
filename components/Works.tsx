@@ -5,18 +5,21 @@ export default function Works() {
   const works = [
     {
       src: "/images/silla-thonet.jpg",
-      name: "Asiento de rejilla",
-      description: "Rejillado a mano de asiento cuadrado",
+      name: "Proceso de rejillado",
+      description: "Cuatro asientos en distintas fases de restauración",
+      badge: "En proceso",
     },
     {
       src: "/images/silla-isabelina.jpg",
       name: "Respaldo de silla de rejilla",
       description: "Rejillado a mano, hilo a hilo",
+      badge: "Antes · Después",
     },
     {
       src: "/images/silla-rustica.jpg",
       name: "Cabezal de rejilla",
       description: "Restauración completa de rejilla en cabezal",
+      badge: "Antes · Después",
     },
   ];
 
@@ -50,7 +53,7 @@ export default function Works() {
                 className="absolute bottom-2 left-2 text-[10px] tracking-widest uppercase bg-[#F8F3E8]/80 text-[#6B4226] px-2 py-0.5 rounded"
                 style={{ fontFamily: "var(--font-lato)" }}
               >
-                Antes · Después
+                {work.badge}
               </span>
             </div>
 
