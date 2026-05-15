@@ -35,7 +35,7 @@ export default function Hero() {
               Restauración de sillas
             </h1>
             <p
-              className="text-base text-[#6B4226] mb-4"
+              className="text-xl text-[#6B4226] mb-4"
               style={{ fontFamily: "var(--font-playfair)" }}
             >
               Especialista en rejilla y asientos artesanales
