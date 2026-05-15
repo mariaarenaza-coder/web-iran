@@ -48,7 +48,7 @@ export default function Testimonials() {
             </span>
 
             <p
-              className="text-[#6B4226] text-sm font-light leading-relaxed flex-1"
+              className="text-[#6B4226] text-base font-light leading-relaxed flex-1"
               style={{ fontFamily: "var(--font-lato)" }}
             >
               {t.quote}
@@ -58,7 +58,7 @@ export default function Testimonials() {
 
             <div>
               <p
-                className="text-[#2D1A0E] text-sm font-bold"
+                className="text-[#2D1A0E] text-base font-bold"
                 style={{ fontFamily: "var(--font-playfair)" }}
               >
                 {t.name}

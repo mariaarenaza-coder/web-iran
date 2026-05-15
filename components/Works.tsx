@@ -66,7 +66,7 @@ export default function Works() {
                 {work.name}
               </h3>
               <p
-                className="text-[#6B4226] text-xs font-light"
+                className="text-[#6B4226] text-sm font-light"
                 style={{ fontFamily: "var(--font-lato)" }}
               >
                 {work.description}

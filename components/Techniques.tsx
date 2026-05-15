@@ -54,7 +54,7 @@ export default function Techniques() {
                 {tech.title}
               </p>
               <p
-                className="text-[#6B4226] text-sm leading-snug mt-1 font-light"
+                className="text-[#6B4226] text-base leading-snug mt-1 font-light"
                 style={{ fontFamily: "var(--font-lato)" }}
               >
                 {tech.subtitle}

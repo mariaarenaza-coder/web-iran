@@ -39,7 +39,7 @@ export default function HowItWorks() {
         Cómo trabajo
       </h2>
       <p
-        className="text-center text-[#6B4226] font-light text-sm mb-14 max-w-md mx-auto"
+        className="text-center text-[#6B4226] font-light text-base mb-14 max-w-md mx-auto"
         style={{ fontFamily: "var(--font-lato)" }}
       >
         Un proceso sencillo, cercano y sin sorpresas.
@@ -71,7 +71,7 @@ export default function HowItWorks() {
 
             {/* Description */}
             <p
-              className="text-[#6B4226] text-sm font-light leading-relaxed"
+              className="text-[#6B4226] text-base font-light leading-relaxed"
               style={{ fontFamily: "var(--font-lato)" }}
             >
               {step.description}

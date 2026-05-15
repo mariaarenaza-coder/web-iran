@@ -39,15 +39,15 @@ export default function Location() {
             <div className="flex items-start gap-2">
               <PinIcon />
               <div style={{ fontFamily: "var(--font-lato)" }}>
-                <p className="text-[#F8F3E8] text-sm font-medium">Zuia</p>
-                <p className="text-[#D4C5A9] text-sm font-light">Álava</p>
+                <p className="text-[#F8F3E8] text-base font-medium">Zuia</p>
+                <p className="text-[#D4C5A9] text-base font-light">Álava</p>
               </div>
             </div>
             <div className="flex items-start gap-2">
               <PinIcon />
               <div style={{ fontFamily: "var(--font-lato)" }}>
-                <p className="text-[#F8F3E8] text-sm font-medium">Bilbao</p>
-                <p className="text-[#D4C5A9] text-sm font-light">Bizkaia</p>
+                <p className="text-[#F8F3E8] text-base font-medium">Bilbao</p>
+                <p className="text-[#D4C5A9] text-base font-light">Bizkaia</p>
               </div>
             </div>
           </div>

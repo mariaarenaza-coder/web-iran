@@ -22,7 +22,7 @@ export default function Footer() {
             </p>
           </div>
           <p
-            className="text-[#D4C5A9] text-sm font-light leading-relaxed"
+            className="text-[#D4C5A9] text-base font-light leading-relaxed"
             style={{ fontFamily: "var(--font-lato)" }}
           >
             Restauración de sillas · especializada en rejilla
@@ -41,7 +41,7 @@ export default function Footer() {
             href="https://wa.me/34626407048"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 text-[#D4C5A9] hover:text-[#F8F3E8] transition-colors text-sm"
+            className="flex items-center gap-2 text-[#D4C5A9] hover:text-[#F8F3E8] transition-colors text-base"
             style={{ fontFamily: "var(--font-lato)" }}
           >
             <WhatsAppIcon />
@@ -60,8 +60,8 @@ export default function Footer() {
           <div className="flex items-start gap-3">
             <CityIcon />
             <div className="flex flex-col gap-1" style={{ fontFamily: "var(--font-lato)" }}>
-              <p className="text-[#D4C5A9] text-sm font-light">Zuia · Álava</p>
-              <p className="text-[#D4C5A9] text-sm font-light">Bilbao · Bizkaia</p>
+              <p className="text-[#D4C5A9] text-base font-light">Zuia · Álava</p>
+              <p className="text-[#D4C5A9] text-base font-light">Bilbao · Bizkaia</p>
             </div>
           </div>
         </div>
