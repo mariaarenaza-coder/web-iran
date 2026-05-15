@@ -24,7 +24,7 @@ const lato = Lato({
 });
 
 export const metadata: Metadata = {
-  title: "Irantzu Restauración — Especializada en rejilla",
+  title: "Irantzu Rejilla — Especialista en rejilla y asientos artesanales",
   description:
     "Devuelvo belleza, funcionalidad y vida a cada silla, respetando su esencia original. Servicio en Araba y Bizkaia.",
 };

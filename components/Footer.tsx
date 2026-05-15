@@ -18,7 +18,7 @@ export default function Footer() {
               className="text-[10px] tracking-widest uppercase text-[#C9A96E]"
               style={{ fontFamily: "var(--font-lato)" }}
             >
-              RESTAURACIÓN
+              REJILLA
             </p>
           </div>
           <p
@@ -73,7 +73,7 @@ export default function Footer() {
           className="text-center text-[#6B4226] text-xs"
           style={{ fontFamily: "var(--font-lato)" }}
         >
-          © 2025 Irantzu Restauración · Todos los derechos reservados ·{" "}
+          © 2025 Irantzu Rejilla · Todos los derechos reservados ·{" "}
           <a href="#" className="hover:text-[#C9A96E] transition-colors">
             Política de privacidad
           </a>

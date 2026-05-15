@@ -41,7 +41,7 @@ export default function Header() {
               className="text-[10px] tracking-widest uppercase text-[#6B4226] whitespace-nowrap"
               style={{ fontFamily: "var(--font-lato)" }}
             >
-              RESTAURACIÓN
+              REJILLA
             </span>
           </span>
           </div>
