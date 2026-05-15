@@ -28,17 +28,11 @@ export default function Hero() {
           <div className="flex flex-col items-center text-center flex-1 py-8 px-6 lg:px-10">
             <OrnamentLine className="w-full max-w-[220px] mb-6" />
 
-            <p
-              className="text-base text-[#6B4226] mb-1"
-              style={{ fontFamily: "var(--font-playfair)" }}
-            >
-              especializada en rejilla
-            </p>
             <h1
               className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#2D1A0E] leading-tight mb-5"
               style={{ fontFamily: "var(--font-playfair)" }}
             >
-              Restauración de sillas
+              Especialista en rejilla<br />y asientos artesanales
             </h1>
             <p
               className="text-[#6B4226] text-sm lg:text-base leading-relaxed font-light mb-4 max-w-xs"
