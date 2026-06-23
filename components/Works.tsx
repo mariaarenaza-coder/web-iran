@@ -85,7 +85,7 @@ export default function Works() {
           className="border border-[#2A5C1B] text-[#2A5C1B] hover:bg-[#2A5C1B] hover:text-[#F8F3E8] px-6 py-2.5 rounded transition-colors text-sm font-medium"
           style={{ fontFamily: "var(--font-lato)" }}
         >
-          Ver mis trabajos
+          Escríbeme por WhatsApp
         </a>
       </div>
 

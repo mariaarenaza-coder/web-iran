@@ -3,6 +3,25 @@ import Image from "next/image";
 export default function About() {
   return (
     <section id="sobre-mi" className="bg-[#F8F3E8] py-20 px-6">
+      {/* Section header */}
+      <div className="flex items-center gap-3 max-w-xs mx-auto mb-6">
+        <span className="flex-1 h-px bg-[#C9A96E] opacity-70" />
+        <span
+          className="text-xs tracking-widest uppercase text-[#C9A96E]"
+          style={{ fontFamily: "var(--font-lato)" }}
+        >
+          Mi historia
+        </span>
+        <span className="flex-1 h-px bg-[#C9A96E] opacity-70" />
+      </div>
+
+      <h2
+        className="text-3xl md:text-4xl font-bold text-[#2D1A0E] text-center mb-14"
+        style={{ fontFamily: "var(--font-playfair)" }}
+      >
+        Sobre mí
+      </h2>
+
       <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         {/* Photo */}
         <div className="flex justify-center">
@@ -19,24 +38,6 @@ export default function About() {
 
         {/* Text */}
         <div className="flex flex-col gap-6">
-          {/* Ornament */}
-          <div className="flex items-center gap-3">
-            <span className="h-px w-8 bg-[#C9A96E]" />
-            <span
-              className="text-xs tracking-widest uppercase text-[#C9A96E]"
-              style={{ fontFamily: "var(--font-lato)" }}
-            >
-              Mi historia
-            </span>
-          </div>
-
-          <h2
-            className="text-3xl md:text-4xl font-bold text-[#2D1A0E]"
-            style={{ fontFamily: "var(--font-playfair)" }}
-          >
-            Sobre mí
-          </h2>
-
           <p
             className="text-[#6B4226] leading-relaxed font-light text-base"
             style={{ fontFamily: "var(--font-lato)" }}
@@ -57,15 +58,6 @@ export default function About() {
             Trabajo con cuidado, honestidad y materiales de calidad.
           </p>
 
-          <div className="h-px w-full bg-[#D4C5A9]" />
-
-          <a
-            href="#contacto"
-            className="inline-flex items-center gap-2 border border-[#2D1A0E] text-[#2D1A0E] hover:bg-[#2D1A0E] hover:text-[#F8F3E8] px-5 py-2.5 rounded transition-colors text-sm font-medium w-fit"
-            style={{ fontFamily: "var(--font-lato)" }}
-          >
-            Conoce más sobre mí
-          </a>
         </div>
       </div>
     </section>
