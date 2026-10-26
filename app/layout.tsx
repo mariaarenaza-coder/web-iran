@@ -24,17 +24,21 @@ const lato = Lato({
 });
 
 export const metadata: Metadata = {
-  title: "Irantzu Rejilla — Especialista en rejilla y asientos artesanales",
+  metadataBase: new URL("https://www.irantzurejilla.es"),
+  title: "Restauración de sillas de rejilla en Bilbao y Álava | Irantzu Rejilla",
   description:
-    "Devuelvo belleza, funcionalidad y vida a cada silla, respetando su esencia original. Servicio en Araba y Bizkaia.",
+    "Restauración de sillas de rejilla, enea y asientos artesanales en Bilbao y Zuia (Álava). Respeto la esencia original de cada silla. Valoración sin compromiso.",
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     title: "Irantzu Rejilla — Especialista en rejilla y asientos artesanales",
     description: "Restauración de sillas. Especializada en rejilla y asientos artesanales. Talleres en Zuia y Bilbao.",
-    url: "https://irantzurejilla.es",
+    url: "/",
     siteName: "Irantzu Rejilla",
     images: [
       {
-        url: "https://irantzurejilla.es/images/og-image.jpg",
+        url: "/images/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Irantzu Rejilla — Especialista en restauración de sillas",
