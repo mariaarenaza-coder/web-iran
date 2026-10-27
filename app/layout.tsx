@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Playfair_Display, Great_Vibes, Lato } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 const playfairDisplay = Playfair_Display({
@@ -59,7 +60,10 @@ export default function RootLayout({
       lang="es"
       className={`${playfairDisplay.variable} ${greatVibes.variable} ${lato.variable}`}
     >
-      <body className="min-h-full antialiased">{children}</body>
+      <body className="min-h-full antialiased">
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
