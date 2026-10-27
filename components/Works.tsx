@@ -21,6 +21,18 @@ export default function Works() {
       description: "Restauración completa de rejilla en cabezal",
       badge: "Antes · Después",
     },
+    {
+      src: "/images/sillas-enea.jpg",
+      name: "Asientos de enea",
+      description: "Tejidos a mano, respetando la estructura original de la silla",
+      badge: "Proceso · Resultado",
+    },
+    {
+      src: "/images/reposapies-lana.jpg",
+      name: "Reposapiés de lana",
+      description: "Asiento tejido a mano en lana de colores",
+      badge: "Terminado",
+    },
   ];
 
   return (
@@ -34,11 +46,11 @@ export default function Works() {
         Mis trabajos
       </h2>
 
-      <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="max-w-5xl mx-auto flex flex-wrap justify-center gap-6">
         {works.map((work, i) => (
           <div
             key={i}
-            className="bg-[#F8F3E8] border border-[#C9A96E] rounded-lg overflow-hidden flex flex-col"
+            className="w-full sm:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] bg-[#F8F3E8] border border-[#C9A96E] rounded-lg overflow-hidden flex flex-col"
           >
             {/* Photo */}
             <div className="relative aspect-[3/2]">
