@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <footer className="bg-[#2D1A0E] text-[#F8F3E8]">
@@ -73,10 +75,10 @@ export default function Footer() {
           className="text-center text-[#6B4226] text-xs"
           style={{ fontFamily: "var(--font-lato)" }}
         >
-          © 2025 Irantzu Rejilla · Todos los derechos reservados ·{" "}
-          <a href="#" className="hover:text-[#C9A96E] transition-colors">
-            Política de privacidad
-          </a>
+          © {new Date().getFullYear()} Irantzu Rejilla · Todos los derechos reservados ·{" "}
+          <Link href="/aviso-legal" className="hover:text-[#C9A96E] transition-colors">
+            Aviso legal y privacidad
+          </Link>
         </p>
       </div>
     </footer>

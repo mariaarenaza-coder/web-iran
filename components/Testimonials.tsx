@@ -4,19 +4,19 @@ const testimonials = [
   {
     quote:
       "Le llevé una silla de mi abuela que parecía imposible de recuperar. Irantzu la devolvió como nueva, respetando cada detalle original. No podía creerlo.",
-    name: "Miren Etxeberria",
+    name: "Miren E.",
     location: "Vitoria-Gasteiz",
   },
   {
     quote:
       "Trato cercano, presupuesto honesto y un resultado precioso. Volvería sin dudarlo y ya le he recomendado a toda mi familia.",
-    name: "Josu Uriarte",
+    name: "Josu U.",
     location: "Bilbao",
   },
   {
     quote:
       "Tenía un juego de sillas isabelinas heredadas que nadie quería tocar. Irantzu las restauró con una paciencia y un oficio impresionantes.",
-    name: "Amaia Goikoetxea",
+    name: "Amaia G.",
     location: "Durango",
   },
 ];
