@@ -73,6 +73,19 @@ export default function Testimonials() {
           </div>
         ))}
       </div>
+
+      {/* Google review button */}
+      <div className="flex justify-center mt-12">
+        <a
+          href="https://g.page/r/CUGRVcI_WqlcEBM/review"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="border border-[#2A5C1B] text-[#2A5C1B] hover:bg-[#2A5C1B] hover:text-[#F8F3E8] px-6 py-2.5 rounded transition-colors text-sm font-medium"
+          style={{ fontFamily: "var(--font-lato)" }}
+        >
+          Déjame tu opinión en Google
+        </a>
+      </div>
     </section>
   );
 }
