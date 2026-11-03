@@ -88,6 +88,8 @@ export default function Hero() {
           alt="Silla antigua restaurada"
           width={389}
           height={700}
+          loading="eager"
+          fetchPriority="high"
           style={{ width: "55vw", height: "auto" }}
         />
       </div>
