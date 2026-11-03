@@ -16,10 +16,13 @@ export default function Hero() {
         <div className="flex items-end gap-0">
 
           {/* ── LEFT CHAIR ── */}
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
+          {/* Desktop only: lazy so mobile never downloads it while hidden */}
+          <Image
             src="/images/silla_izq.png"
             alt="Silla antigua restaurada por Irantzu"
+            width={460}
+            height={780}
+            sizes="307px"
             className="hidden lg:block flex-shrink-0 self-end drop-shadow-2xl"
             style={{ height: "520px", width: "auto" }}
           />
@@ -69,10 +72,13 @@ export default function Hero() {
           </div>
 
           {/* ── RIGHT CHAIR ── */}
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
+          {/* Desktop only: lazy so mobile never downloads it while hidden */}
+          <Image
             src="/images/silla_der.png"
             alt="Silla rústica restaurada por Irantzu"
+            width={460}
+            height={780}
+            sizes="307px"
             className="hidden lg:block flex-shrink-0 self-end drop-shadow-2xl"
             style={{ height: "520px", width: "auto" }}
           />
