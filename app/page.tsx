@@ -14,7 +14,7 @@ const jsonLd = {
   description:
     "Restauración de sillas, especializada en rejilla y asientos artesanales: rejilla, alga marina, enea y trenzados.",
   url: "https://www.irantzurejilla.es",
-  telephone: "+34626407048",
+  telephone: "+34696268527",
   image: "https://www.irantzurejilla.es/images/og-image.jpg",
   logo: "https://www.irantzurejilla.es/icon.png",
   areaServed: [

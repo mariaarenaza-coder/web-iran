@@ -63,14 +63,14 @@ export default function Header() {
 
         {/* CTA */}
         <a
-          href="https://wa.me/34626407048"
+          href="https://wa.me/34696268527"
           target="_blank"
           rel="noopener noreferrer"
           className="hidden md:flex items-center gap-2 bg-[#2A5C1B] hover:bg-[#1E4414] text-[#F8F3E8] text-sm font-medium px-4 py-2 rounded transition-colors"
           style={{ fontFamily: "var(--font-lato)" }}
         >
           <WhatsAppIcon />
-          626 407 048
+          696 268 527
         </a>
 
         {/* Hamburger */}
@@ -112,14 +112,14 @@ export default function Header() {
             </a>
           ))}
           <a
-            href="https://wa.me/34626407048"
+            href="https://wa.me/34696268527"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 bg-[#2A5C1B] hover:bg-[#1E4414] text-[#F8F3E8] text-sm font-medium px-4 py-3 rounded transition-colors w-fit"
             style={{ fontFamily: "var(--font-lato)" }}
           >
             <WhatsAppIcon />
-            WhatsApp · 626 407 048
+            WhatsApp · 696 268 527
           </a>
         </div>
       )}

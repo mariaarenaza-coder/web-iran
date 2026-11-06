@@ -91,7 +91,7 @@ export default function Works() {
       {/* CTA button */}
       <div className="flex justify-center mt-12">
         <a
-          href="https://wa.me/34626407048"
+          href="https://wa.me/34696268527"
           target="_blank"
           rel="noopener noreferrer"
           className="border border-[#2A5C1B] text-[#2A5C1B] hover:bg-[#2A5C1B] hover:text-[#F8F3E8] px-6 py-2.5 rounded transition-colors text-sm font-medium"

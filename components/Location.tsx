@@ -53,7 +53,7 @@ export default function Location() {
           </div>
 
           <a
-            href="https://wa.me/34626407048"
+            href="https://wa.me/34696268527"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 bg-[#2A5C1B] hover:bg-[#1E4414] text-[#F8F3E8] font-medium px-6 py-3 rounded transition-colors w-fit text-sm"

@@ -15,7 +15,7 @@ const sections = [
     title: "Titular",
     paragraphs: [
       "Esta web pertenece a Irantzu Castillo Zubiaga, que se dedica a la restauración de sillas, especializada en rejilla y asientos artesanales.",
-      "Contacto: irantzucastillo@gmail.com · WhatsApp 626 407 048.",
+      "Contacto: irantzucastillo@gmail.com · WhatsApp 696 268 527.",
     ],
   },
   {

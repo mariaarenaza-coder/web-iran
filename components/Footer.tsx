@@ -40,14 +40,14 @@ export default function Footer() {
             Contacto
           </p>
           <a
-            href="https://wa.me/34626407048"
+            href="https://wa.me/34696268527"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-[#D4C5A9] hover:text-[#F8F3E8] transition-colors text-base"
             style={{ fontFamily: "var(--font-lato)" }}
           >
             <WhatsAppIcon />
-            626 407 048
+            696 268 527
           </a>
         </div>
 
