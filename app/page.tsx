@@ -21,6 +21,26 @@ const jsonLd = {
     { "@type": "AdministrativeArea", name: "Álava" },
     { "@type": "AdministrativeArea", name: "Bizkaia" },
   ],
+  sameAs: [
+    "https://www.google.com/maps/place/?q=place_id:ChIJsajqGYVpjyQRQZFVwj9aqVw",
+  ],
+  hasMap:
+    "https://www.google.com/maps/place/?q=place_id:ChIJsajqGYVpjyQRQZFVwj9aqVw",
+  openingHoursSpecification: [
+    {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      opens: "10:00",
+      closes: "18:00",
+    },
+  ],
+  knowsAbout: [
+    "Restauración de sillas",
+    "Rejilla",
+    "Enea",
+    "Alga marina",
+    "Trenzados",
+  ],
 };
 
 export default function Home() {
